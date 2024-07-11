@@ -40,9 +40,7 @@ jobs:
         context: .
         push: true
         tags: |
-          Giunei/nlw-journey-api:${{ steps.generate_sha.outputs.sha }}
-          Giunei/nlw-journey-api:latest
-
-
+          giunei/nlw-journey-api:${{ steps.generate_sha.outputs.sha }}
+          giunei/nlw-journey-api:latest
 
         
